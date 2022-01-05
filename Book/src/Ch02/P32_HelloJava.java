@@ -1,9 +1,5 @@
 package Ch02;
-/*
- * 날짜 : 2021/12/31
- * 이름 : 박종우
- * 내용 : 주석과 실행문 교재 p32
- */
+
 public class P32_HelloJava {
 	
 	public static void main(String[] args) {

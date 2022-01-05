@@ -1,9 +1,5 @@
 package Ch03;
-/*
- * 날짜 : 2021/12/31
- * 이름 : 박종우
- * 내용 : 자바 자료형 출력하기 교재 p40
- */
+
 public class P40_CharType {
 	
 	public static void main(String[] args) {

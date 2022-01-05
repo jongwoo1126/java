@@ -1,9 +1,5 @@
 package Ch04;
-/*
- * 날짜 : 2022/01/03
- * 이름 : 박종우
- * 내용 : 문자열연산
- */
+
 public class p70 {
 
 	public static void main(String[] args) {
