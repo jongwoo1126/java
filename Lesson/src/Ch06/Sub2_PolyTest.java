@@ -21,6 +21,9 @@ public class Sub2_PolyTest {
 		lion.move();
 		shark.move();
 		
+		eagle.hunt();
+		lion.hunt();
+		shark.hunt();
 	}
 
 }

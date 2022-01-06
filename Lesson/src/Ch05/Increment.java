@@ -2,7 +2,7 @@ package Ch05;
 
 public class Increment {
 	
-	public int num1;
+	public static int num1;
 	public static int num2;
 	
 	public Increment() {

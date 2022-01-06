@@ -6,4 +6,5 @@ public class Animal {
 		System.out.println("Animal move...");
 	}
 	
+	public void hunt() {}
 }
