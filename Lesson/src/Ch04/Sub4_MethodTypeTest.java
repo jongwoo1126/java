@@ -2,7 +2,7 @@ package Ch04;
 /*
  * 날짜 : 2022/01/04
  * 이름 : 박종우
- * 내용 : 자바 Method Type 실습하기 교재 p 
+ * 내용 : 자바 Method Type 실습하기 교재 p155
  */
 public class Sub4_MethodTypeTest {
 

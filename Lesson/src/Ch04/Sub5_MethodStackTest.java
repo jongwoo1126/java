@@ -4,7 +4,7 @@ package Ch04;
  * 이름 : 박종우
  * 내용 : 자바 실행순서와 스택 실습하기 교재 p159 
  */
-public class Sub5_MethofStackTest {
+public class Sub5_MethodStackTest {
 	
 	//전역변수(멤버변수) : 클래스에서 선언한 변수
 	int num = 1;
