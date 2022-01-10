@@ -19,7 +19,7 @@ class SubFinalMethod extends P222{
 		System.out.println("method() 재정의");
 	}
 	
-	void finalMethod() { // 재정의 불가
+	void FinalMethod() { // 재정의 불가
 		System.out.println("finalMethod() 재정의");
 	}
 }
