@@ -9,12 +9,12 @@ public class P45_ScopeEx {
 		String name;
 		if (true) {
 			
-			name = "È«±æµ¿"
+			name = "È«±æµ¿";
 					
-			String email = "hong@test.com"		
+			String email = "hong@test.com";		
 		}
 		
-		email = "hong@test.com"
+		// email = "hong@test.com"; ¿¡·¯
 	}
 
 }

@@ -6,7 +6,7 @@ public class P44_ScopeEx {
 	
 	public static void main(String[] args) {
 		
-		string name;
+		String name;
 	}
 
 }

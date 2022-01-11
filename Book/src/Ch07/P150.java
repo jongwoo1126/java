@@ -20,7 +20,7 @@ public class P150 {
 			temp += 1;
 		
 		}
-		System.out.println(temp);   // 에러(for문 안에서만 사용되는 지역변수 temp)
+		//System.out.println(temp);   // 에러(for문 안에서만 사용되는 지역변수 temp)
 		
 	}
 }
