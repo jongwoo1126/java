@@ -8,7 +8,7 @@ class Vehicle{
 		this.name = name;
 		this.price = price;
 	}
-	public void Info() {
+	public void info() {
 		System.out.println("=================");
 		System.out.println("차량명 : "+name);
 		System.out.println("가격 : "+price);
@@ -34,13 +34,13 @@ public class Ex05 {
 
 	public static void main(String[] args) {
 		
-		CarFactory factory = new CarFactory.getInstance();
+		CarFactory factory = CarFactory.getInstance();
 		
 		Vehicle avante = factory.createCar("아반테", 2500);
 		Vehicle sonata = factory.createCar("소나타", 3000);
 		
-		avante.Info();
-		sonata.Info();
+		avante.info();
+		sonata.info();
 		
 	}
 }

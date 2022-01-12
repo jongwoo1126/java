@@ -1,18 +1,18 @@
 package Test3;
 
 class Customer{
-	private int id;
-	private String name;
-	private String grade;
-	private int point;
-	private double pointRatio;
+	protected int id;
+	protected String name;
+	protected String grade;
+	protected int point;
+	protected double pointRatio;
 	
 	public Customer(int id, String name) {
 		this.id = id;
 		this.name = name;
-		this.grade = grade;
-		this.point = point;
-		this.pointRatio = pointRatio;
+		this.grade = "SILVER";
+		this.point = 100;
+		this.pointRatio = 0.01;
 	}
 	
 	public int calcPrice(int price) {
@@ -26,7 +26,7 @@ class Customer{
 		System.out.println("고객이름 : "+name);
 		System.out.println("고객등급 : "+grade);
 		System.out.println("현재 포인트 : "+point);
-		System.out.println("포인트 적립율 : "+poinRatio);
+		System.out.println("포인트 적립율 : "+pointRatio);
 		
 	}
 }
@@ -36,12 +36,18 @@ class VipCustomer extends Customer{
 	private double saleRatio;
 	
 	public VipCustomer(int id, String name) {
-		this.id = id++;
+		super(id,name);
 		super.grade = "VIP";
 		super.point = 1000;
-		super.pointRatio = 0.1;
-		this.saleRatio;
+		super.pointRatio = 0.05;
+		this.saleRatio = 0.1;
 	}
+	@Override
+	public int calcPrice(int price) {
+		point += price * pointRatio;
+		return price - (int)(price * saleRatio);
+	}
+	
 }
 public class Ex07 {
 	

@@ -26,7 +26,7 @@ public class Ex01 {
 				}
 			}catch(InputMismatchException e) {
 				System.out.println("숫자가 아닙니다. 숫자를 입력하세요.");
-				return.???
+				continue;
 			}catch(Exception e) {
 				System.out.println(e.getMessage());
 				continue;

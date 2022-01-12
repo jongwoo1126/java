@@ -10,8 +10,7 @@ class Landload extends Rent{
 	
 	public void getMoney() {
 		System.out.println("건물주입니다.");
-		
-		????;
+		payment();
 	}
 }
 public class Ex06 {
