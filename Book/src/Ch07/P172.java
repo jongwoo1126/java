@@ -31,8 +31,8 @@ public class P172 {
 		}
 		
 		// 학과와 학년을 매개변수로 받는 생성자 (에러 발생)
-		P172(String d, int g){
-			department = d;
-			grade = g;
-	}
+		//P172(String d, int g){
+		//	department = d;
+		//	grade = g;
+	//}
 }
