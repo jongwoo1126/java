@@ -43,7 +43,7 @@ public class Sub5_SelectTest {
 				System.out.println("----------------------");
 			}
 			
-			// 6단계 - 데어터베이스 종료
+			// 6단계 - 데이터베이스 종료
 			conn.close();
 			
 		} catch (Exception e) {
