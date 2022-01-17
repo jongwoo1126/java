@@ -12,7 +12,7 @@ public class Ex02 {
 	
 	public static void main(String[] args) {
 		
-		Scanner sc = Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		
 		int year;
 		int birth;
@@ -25,10 +25,10 @@ public class Ex02 {
 		birth = sc.nextInt();
 				
 		System.out.println("이름 입력 : ");
-		name = sc.next;
+		name = sc.next();
 		
 		int age = year - birth;
-		System.out.printf("%s님 안녕하세요.\n당신은 올해 만 %d세 입니다.), name, age
+		System.out.printf("%s님 안녕하세요.\n당신은 올해 만 %d세 입니다.", name, age);
 				
 		sc.close();
 	}

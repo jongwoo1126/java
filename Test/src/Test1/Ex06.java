@@ -13,7 +13,7 @@ public class Ex06 {
 		int x = 12;
 		int y = 21;
 		
-		String(result) = x > y ? "x°¡ ´õ Å®´Ï´Ù." : "y°¡ ´õ Å®´Ï´Ù.";
+		String result = x > y ? "x°¡ ´õ Å®´Ï´Ù." : "y°¡ ´õ Å®´Ï´Ù.";
 		
 		System.out.println(result);
 				
