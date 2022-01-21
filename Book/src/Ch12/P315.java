@@ -1,6 +1,6 @@
 package Ch12;
 
-public class P315_1 {
+public class P315 {
 
 	public static void main(String[] args) {
 		
